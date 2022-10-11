@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-areas:
+    'search links'
+    'messages news' ;
+    font-size: 32px;
+}
+.news{
+    grid-area: news;
+    height: 50vh;
+    text-align: center;
+    background-color: aqua;
+}
+.links{
+    grid-area: links;
+    height: 50vh;
+    text-align: center;
+    background-color: yellow;
+}
+.messages{
+    grid-area: messages;
+    text-align: center;
+    background-color: red;
+}
+.search{
+    grid-area: search;
+    text-align: center;
+    background-color: blueviolet;
+}
